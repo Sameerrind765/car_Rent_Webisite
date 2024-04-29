@@ -1,0 +1,170 @@
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+a{
+    color: unset;
+}
+.menu button li,
+#white_Font {
+    margin: 0;
+    padding: 0;
+    color: var(--font-color_1);
+    text-transform: unset;
+}
+button {
+    font-weight: 100;
+    width: 116px;
+    height: 38px;
+    background-color: var(--btn-color);
+    margin-left: 14px;
+    margin-right: 20px;
+    border-radius: var(--btn-raduis);
+    padding: 0 0 0 0;
+    border: 0;
+    color: var(--bg-color);
+}
+.logo{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 10vh;
+}
+.container_img {
+    line-height: 27vh;
+    text-align: center;
+    height: 27vh;
+    width: 100vw;
+    max-width: 100vw;
+    background-image: url(../photos/carindesert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rent {
+    margin: 3vh 0;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+#belowRent {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5vh;
+}
+
+#belowExplore {
+    font-size: 14px;
+    margin-bottom: 3vh;
+}
+
+#textMargin {
+    padding: 0 5vw;
+    max-width: 100vw;
+}
+
+#detailsP {
+    margin: 3vh 0 2vh 0;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+#belowDetails {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3vh;
+}
+
+#bookYourRide {
+    margin-top: 7vh;
+    width: 90vw;
+    background-image: url(../photos/carindesert2.jpg);
+    border-radius: 10px;
+}
+
+.cardImg {
+    width: 26.6vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.cardDiv {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.details {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    /* max-width: 80vw; */
+    justify-content: space-between;
+    /* width: 80vw; */
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.inbox {
+    border-top: 2px solid gray;
+    font-size: 2rem;
+}
+
+#inboxp {
+    font-size: 1rem;
+}
+
+#desert {
+    background-image: url(../photos/camel_ride.jpg);
+    margin-top: 7vh;
+    width: 90vw;
+    border-radius: 10px;
+    background-size: cover;
+}
+#aboveBox{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3vh;
+}
+footer {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    height: 354px;
+    opacity: 1;
+    background-color: rgb(21, 21, 21);
+    border-top: 0px;
+}
+#footerLogo{
+    text-align: center;
+    padding-left: 4vw;
+    max-width: 100vw;
+    width: 100vw;
+    height: 8vh;
+    align-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#h{
+    grid-area: 4/1;
+}
+.footerItems{
+        display: flex;
+        justify-content: center;
+        /* font-weight: 600; */
+        font-size: 30px;
+        margin: 12px 0;
+}
